@@ -1,1 +1,3 @@
-# isthisbandstoic
+# isthisbandstoic?
+
+JavaScriptのバリデーションチェックのアウトプット

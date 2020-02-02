@@ -1,0 +1,150 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.site-width{
+  width: 980px;
+  margin: 0 auto;
+}
+
+#contents1{
+  height: 250px;
+}
+
+
+.title{
+  text-align: center;
+  font-size: 100px;
+}
+
+
+
+/* フォーム */
+
+
+form{
+  width:50%;
+  margin: 0 auto;
+}
+
+.form-group h2{
+  margin: 0;
+}
+
+
+
+input[type='text']{
+  font-size: 30px;
+  height: 50px;
+  width: 490px;
+  box-sizing: border-box;
+
+}
+
+
+
+/* input[type='submit']{
+  background: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  float: right;
+  cursor: pointer;
+}
+
+input[value='Find Out']{
+  font-size: 15px;
+} */
+
+
+
+/* 後半 */
+
+
+.albem{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.albemjp{
+  text-decoration: none;
+  color: black;
+}
+
+.albem a:hover{
+  opacity: 0.6;
+
+
+}
+
+.image{
+  margin: 0 auto;
+  width: 300px;
+}
+
+.hakoniwayori , .shinwa{
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+
+.push-btn{
+  background: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  float: right;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.image a img:hover{
+  opacity: 0.6;
+}
+
+
+/* input[type='submit']:hover{
+  opacity: 0.8;
+} */
+
+
+
+/* バリデーション */
+.help-block{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+
+/* エラー */
+.has-error input{
+  border: 3px solid #ff4d4b;
+}
+.has-error .help-block{
+  color: #ff4d4b;
+}
+
+/* 成功 */
+.has-success input{
+  border: 3px solid #2fb4ce;
+}
+.has-success .help-block{
+  color: #2fb4ce;
+}
+
+/* アルベム */
+.has-notyet input{
+  border: 3px solid #EEA057;
+}
+.has-notyet .help-block{
+  color: #EEA057;
+}
